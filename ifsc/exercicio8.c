@@ -7,7 +7,7 @@ int main()
     float massa_inicial;
 
     printf("Informe a massa inicial em gramas: ");
-    scanf("%d", &massa_inicial);
+    scanf("%f", &massa_inicial);
 
     float tempo = 0;
 
@@ -17,7 +17,7 @@ int main()
         tempo += 50;
     }
 
-    printf("É necessário %d segundos para que a massa se torne menor que 0,05 gramas. ", tempo);   
+    printf("É necessário %f segundos para que a massa se torne menor que 0,05 gramas. ", tempo);   
 
     return 0;
 } 
