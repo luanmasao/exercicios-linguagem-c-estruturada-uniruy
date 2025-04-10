@@ -1,4 +1,4 @@
-//Questão 76 IFSC
+//Questão 103 IFSC
 
 #include <stdio.h>
 
