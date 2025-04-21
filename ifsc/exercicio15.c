@@ -11,7 +11,7 @@ int main()
         if(x % 2 == 0)
         {
             soma += x;
-            printf("%d",x);
+            printf("%d \n",x);
         }
 
     }
