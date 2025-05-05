@@ -14,6 +14,7 @@ int main()
     for (int c = 0; c < 4; c++) {
         printf("%d ", vetor2[c]);
     }
-    
-}
 
+
+    return 0;
+}
