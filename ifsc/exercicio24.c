@@ -21,12 +21,12 @@ int main()
     if(input == 1)
     {
         media =(nota1 + nota2 + nota3)/3;
-        printf("A média aritmética é: %f",media);
+        printf("Média aritmética é: %.2f",media);
     }
     else if(input == 2)
     {
         media = ((nota1 * 3) + (nota2 *3) + (nota3 * 4))/10;
-        printf("A média ponderada é: %f",media);
+        printf("Média ponderada é: %.2f",media);
     }
 
     return 0;
