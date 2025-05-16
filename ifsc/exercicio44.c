@@ -1,4 +1,4 @@
-//Questão 20 IFSC
+//Questão 21 IFSC
 
 #include <stdio.h>
 
