@@ -4,14 +4,14 @@
 
 int main()
 {
-    int nome[50];
+    char nome[50];
     int diarias;
     float total;
 
     printf("Informe o nome do cliente: ");
     scanf("%s",nome);
     printf("Informe a quantidade de diárias: ");
-    scanf("%d",diarias);
+    scanf("%d",&diarias);
 
     if(diarias > 15)
     {
@@ -26,7 +26,7 @@ int main()
         total = (diarias * 8) + (60 * diarias);
     }
 
-    printf("Nome do cliente: %s. Total da conta: %.2f");
+    printf("Nome do cliente: %s. Total da conta: %.2f",nome,total);
 
     return 0;
 }
