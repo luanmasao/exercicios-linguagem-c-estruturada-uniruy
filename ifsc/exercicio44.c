@@ -6,10 +6,10 @@ int main()
 {
     int a,b,resultado;
 
-    printf("Informe um valor: \n");
+    printf("Informe um valor: ");
     scanf("%d",&a);
 
-    printf("Informe um valor: \n");
+    printf("Informe um valor: ");
     scanf("%d",&b);
 
     resultado = (a * a) + (b * b);
