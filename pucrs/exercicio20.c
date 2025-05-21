@@ -24,7 +24,7 @@ int main()
         {
             bonus = valor_compras * 0.10;
         }
-        else(valor_compras >= 500000)
+        else
         {
             bonus = valor_compras * 0.15;
         }
